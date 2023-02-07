@@ -1,0 +1,24 @@
+@media (min-width: 768px) {
+    .addNewComment .form {
+        width: 80%;
+    }
+}
+
+.addNewComment input:focus,
+.addNewComment textarea:focus {
+    outline: none;
+}
+
+.addNewComment textarea {
+    resize: none;
+    height: 150px;
+}
+
+.addNewComment button {
+    transition: .3s all ease;
+    position: relative;
+}
+
+.addNewComment button:active {
+    transform: translateY(1px);
+}

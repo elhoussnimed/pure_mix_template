@@ -1,0 +1,25 @@
+.socialMediaItem {
+    background-color: transparent;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: grid;
+    place-content: center;
+    transition: .3s all ease;
+    cursor: pointer;
+}
+
+.socialMediaItem i {
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: .3s all ease;
+}
+
+.socialMediaItem:hover {
+    background-color: white;
+}
+
+.socialMediaItem:hover i {
+    color: black;
+}

@@ -1,0 +1,40 @@
+.projects {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.tab {
+    width: 150px;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    padding: 10px;
+    transition: .3s all ease;
+    font-size: 13px;
+    background-color: transparent;
+}
+
+.tab:hover {
+    background-color: black;
+    color: white;
+}
+
+.tab:active {
+    transform: translateY(1px);
+}
+
+.tab.clicked {
+    background-color: black;
+    color: white;
+}

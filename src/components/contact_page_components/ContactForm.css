@@ -1,0 +1,32 @@
+.contact_form input,
+.contact_form textarea {
+    border: 1px solid #aaa;
+}
+
+.contact_form input:focus,
+.contact_form textarea:focus {
+    outline: none;
+}
+
+.contact_form textarea {
+    height: 160px;
+    resize: none;
+}
+
+.contact_form button {
+    background-color: black;
+    color: white;
+    border: 1px solid #aaa;
+    width: 160px;
+    transition: .3s all ease;
+}
+
+.contact_form button:hover {
+    background-color: white;
+    color: black;
+    border-color: black;
+}
+
+.contact_form button:active {
+    scale: .98;
+}

@@ -1,0 +1,26 @@
+.article_title {
+    letter-spacing: 2px;
+}
+
+.article_btn {
+    width: 150px;
+    transition: .3s all ease;
+    border-radius: 5px;
+    background-color: transparent;
+    position: relative;
+}
+
+.article_btn:hover {
+    color: white;
+    background-color: black;
+}
+
+.article_btn:active {
+    scale: .98;
+}
+
+.article_description {
+    font-size: 13px;
+    height: 160px;
+    overflow: hidden;
+}

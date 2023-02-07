@@ -1,0 +1,9 @@
+.singleComment .commentImage {
+    width: 100px;
+    height: 100px;
+}
+
+.singleComment .commentInfo .commentText {
+    font-size: 14px;
+    width: 80%;
+}

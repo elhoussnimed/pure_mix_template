@@ -1,0 +1,23 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 25px;
+}
+
+.logo {
+    text-decoration: none;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    color: black;
+    letter-spacing: 1px;
+}
+
+.logo:hover {
+    color: black;
+}
+
+.burgerBtn {
+    font-size: 1.6rem;
+    cursor: pointer;
+}

@@ -1,0 +1,36 @@
+.navMenu {
+    background-color: rgba(0, 0, 0, 0.95);
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    z-index: 10;
+}
+
+.navMenu .navItem {
+    display: block;
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    font-size: 1.8rem;
+    cursor: pointer;
+    transition: .2s all ease;
+}
+
+.navMenu .navItem:hover {
+    letter-spacing: 2px;
+}
+
+.navMenu .close {
+    position: absolute;
+    top: 25px;
+    right: 35px;
+    cursor: pointer;
+    font-size: 1.8rem;
+}

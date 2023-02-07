@@ -1,0 +1,33 @@
+.hero {
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.content {
+    background-color: white;
+    width: 550px;
+    max-width: 80%;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid #ddd;
+}
+
+.contentTitle {
+    text-transform: uppercase;
+    font-weight: bold;
+    position: relative;
+}
+
+.contentDescription {
+    color: #aaa;
+    position: relative;
+}
